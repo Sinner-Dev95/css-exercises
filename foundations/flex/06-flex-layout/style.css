@@ -3,6 +3,7 @@
 body {
   height: 100vh;
   margin: 0;
+  padding: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
   display: flex;
@@ -13,11 +14,33 @@ body {
 .header, 
 .footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  
 }
+
+.footer {
+  background-color: lightgrey;
+}
+
+.left-links,
+.right-links
+ {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+  flex: 1;
+  padding: 5px;
+  
+}
+.right-links {
+  justify-content: flex-end;
+  
+}
+ {}
 
 ul {
   list-style: none;
+  
 }
 
 li > a {
