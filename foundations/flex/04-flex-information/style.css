@@ -28,6 +28,7 @@ img {
 .card {
   margin: auto;
   text-align: center;
+  max-width: 200px;
 }
 
 
