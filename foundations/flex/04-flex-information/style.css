@@ -5,12 +5,32 @@ body {
 img {
   width: 100px;
   height: 100px;
+  
 }
+
+
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin-bottom: 32px;
 }
+
+.container
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.card {
+  margin: auto;
+  text-align: center;
+}
+
+
 
 /* do not edit this footer */
 .footer {
