@@ -33,3 +33,41 @@ If you use the tools in the Advanced Grid Properties lesson you should be able t
 - The header and footer span across both columns
 - The sidebar only spans across the first column
 - The nav and article elements only span across the second column
+
+---
+
+# Mockup Holy Grail con Grid
+
+Ora che hai reso il tuo layout Holy Grail responsivo, ci divertiremo a renderlo un po' più complicato aggiungendo alcune funzionalità. Potresti trovare questo esercizio un po' più difficile di quanto previsto. Potresti essere tentato di usare Flexbox. Ma per questo esercizio pratico, prova a vedere se riesci a ricreare l'intero mockup usando solo Grid. Sentiti libero di aggiungere il tuo contenuto fittizio o stilizzazione!
+
+### Suggerimenti
+- Per questo esercizio dovrai aggiungere alcuni blocchi di dichiarazioni CSS al file style.css. Guarda nell'HTML per vedere quali selettori e combinatori puoi usare.
+- Prendi il layout una sezione alla volta
+- Non devi aggiungere o modificare nulla nell'HTML, ma sarà utile esaminare le relazioni tra elementi parent e child
+- Proprio come con Flexbox, puoi facilmente centrare un elemento trasformandolo in una grid
+- Non preoccuparti se l'elemento immagine segnaposto si allunga quando ridimensioni la finestra del browser. Questo sarà trattato nelle lezioni sulla Responsività
+
+## Risultato Desiderato
+
+![desired outcome](./desired-outcome.png)
+
+Se usi gli strumenti della lezione sulle Proprietà Avanzate di Grid, dovresti essere in grado di far adattare automaticamente le card dell'articolo quando la finestra del browser viene regolata:
+
+![desired outcome stretched](./desired-outcome-stretched.png)
+
+### Autoverifica
+- L'elemento container ha due colonne
+- La seconda colonna del container è 4 volte più grande della prima colonna
+- L'elemento container ha un gap di 4px
+- L'elemento header ha due colonne
+- Il `ul` dentro l'elemento menu contiene un'altra grid
+- Il `ul` dentro l'elemento nav contiene un'altra grid
+- L'elemento sidebar ha un gap di 50px
+- Gli elementi di testo nella sidebar sono centrati con grid
+- L'elemento article dovrebbe impostare le colonne della grid usando `repeat` insieme alle proprietà `auto-fit` e `minmax`
+- Le colonne dell'articolo dovrebbero avere un valore minimo di 250px e un massimo di 1fr unit
+- L'elemento article ha un gap di 15px
+- Gli elementi card dentro il container article hanno un'altezza di 200px
+- Header e footer si estendono su entrambe le colonne
+- La sidebar si estende solo sulla prima colonna
+- Gli elementi nav e article si estendono solo sulla seconda colonna
